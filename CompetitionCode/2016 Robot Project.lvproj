@@ -111,7 +111,11 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="ClimberCode" Type="Folder">
+			<Item Name="AngleControl.vi" Type="VI" URL="../AngleControl.vi"/>
+			<Item Name="ExtenderControl.vi" Type="VI" URL="../ExtenderControl.vi"/>
 			<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
+			<Item Name="IterateClimber.vi" Type="VI" URL="../IterateClimber.vi"/>
+			<Item Name="WinchControl.vi" Type="VI" URL="../WinchControl.vi"/>
 		</Item>
 		<Item Name="DriverCode" Type="Folder">
 			<Item Name="DriveScale.vi" Type="VI" URL="../DriveScale.vi"/>
