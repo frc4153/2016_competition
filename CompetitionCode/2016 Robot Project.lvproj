@@ -110,10 +110,13 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+		<Item Name="ClimberCode" Type="Folder">
+			<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
 		</Item>
-		<Item Name="Team Code" Type="Folder">
+		<Item Name="DriverCode" Type="Folder">
+			<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
+		</Item>
+		<Item Name="RobotMainCode" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -124,9 +127,17 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
-		<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
-		<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
+		<Item Name="ShooterCode" Type="Folder">
+			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
+		</Item>
+		<Item Name="Support Code" Type="Folder">
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+		</Item>
+		<Item Name="constants.ctl" Type="VI" URL="../constants/constants.ctl"/>
+		<Item Name="constants.vi" Type="VI" URL="../constants/constants.vi"/>
+		<Item Name="IterateDrive.vi" Type="VI" URL="../IterateDrive.vi"/>
+		<Item Name="IterateShooter.vi" Type="VI" URL="../IterateShooter.vi"/>
+		<Item Name="Joysticks.vi" Type="VI" URL="../Joysticks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
