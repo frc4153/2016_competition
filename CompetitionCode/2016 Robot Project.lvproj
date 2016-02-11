@@ -138,7 +138,9 @@ AddOutputFilter chunkFilter
 			<Item Name="FlyWheelControl.vi" Type="VI" URL="../FlyWheelControl.vi"/>
 			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
 			<Item Name="IterateShooter.vi" Type="VI" URL="../IterateShooter.vi"/>
+			<Item Name="ShooterFireMechanism.vi" Type="VI" URL="../ShooterFireMechanism.vi"/>
 			<Item Name="ShooterIntakeWheelControl.vi" Type="VI" URL="../ShooterIntakeWheelControl.vi"/>
+			<Item Name="ShooterManualFlyWheel.vi" Type="VI" URL="../ShooterManualFlyWheel.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
