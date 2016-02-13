@@ -138,9 +138,11 @@ AddOutputFilter chunkFilter
 			<Item Name="FlyWheelControl.vi" Type="VI" URL="../FlyWheelControl.vi"/>
 			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
 			<Item Name="IterateShooter.vi" Type="VI" URL="../IterateShooter.vi"/>
+			<Item Name="ShooterDistanceCalibration.vi" Type="VI" URL="../ShooterDistanceCalibration.vi"/>
 			<Item Name="ShooterFireMechanism.vi" Type="VI" URL="../ShooterFireMechanism.vi"/>
 			<Item Name="ShooterIntakeWheelControl.vi" Type="VI" URL="../ShooterIntakeWheelControl.vi"/>
 			<Item Name="ShooterManualFlyWheel.vi" Type="VI" URL="../ShooterManualFlyWheel.vi"/>
+			<Item Name="ShooterRollingAverageDistance.vi" Type="VI" URL="../ShooterRollingAverageDistance.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
@@ -248,6 +250,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UnloadCPPStartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadCPPStartupProgram.vi"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -611,9 +614,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Area Scoring.vi" Type="VI" URL="../Vision support/Area Scoring.vi"/>
-			<Item Name="Aspect Ratio Score 2016.vi" Type="VI" URL="../Vision support/Aspect Ratio Score 2016.vi"/>
-			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../Vision support/Calculate Particle Scores.vi"/>
+			<Item Name="Area Scoring.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Area Scoring.vi"/>
+			<Item Name="Aspect Ratio Score 2016.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Aspect Ratio Score 2016.vi"/>
+			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Calculate Particle Scores.vi"/>
 			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision support/Camera Types.ctl"/>
 			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision support/Compute DistanceToTarget2.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
@@ -621,7 +624,8 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision support/Get camera FOVs.vi"/>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../Vision support/Label Targets2.vi"/>
-			<Item Name="Moment Score.vi" Type="VI" URL="../Vision support/Moment Score.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Moment Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Moment Score.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -635,8 +639,8 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../Vision support/Normalize Coordinates.vi"/>
-			<Item Name="Normalize Score.vi" Type="VI" URL="../Vision support/Normalize Score.vi"/>
-			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../Vision support/Normalized Range Compare 2016.vi"/>
+			<Item Name="Normalize Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalize Score.vi"/>
+			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalized Range Compare 2016.vi"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision support/Sorted Particle Report 2016.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
