@@ -21,7 +21,7 @@
 			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="InsertRectangle.vi" Type="VI" URL="../../CompetitionCode/InsertRectangle.vi"/>
+		<Item Name="InsertRectangle.vi" Type="VI" URL="../InsertRectangle.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -212,6 +212,8 @@
 				<Item Name="WPI_DashboardUpdate RPC Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardUpdate RPC Info.vi"/>
 				<Item Name="NT Update Persistence.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Update Persistence.vi"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
+				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 			</Item>
 			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Interpolate RGB Color.vi"/>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
@@ -226,6 +228,12 @@
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="Prepare Joystick Data for Displays.vi" Type="VI" URL="../Prepare Joystick Data for Displays.vi"/>
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
+			<Item Name="Shutdown.vi" Type="VI" URL="../TestLights Folder/Shutdown.vi"/>
+			<Item Name="LEDseflash.vi" Type="VI" URL="../TestLights Folder/LEDseflash.vi"/>
+			<Item Name="LEDstateintensity.vi" Type="VI" URL="../TestLights Folder/LEDstateintensity.vi"/>
+			<Item Name="LightControl.vi" Type="VI" URL="../TestLights Folder/LightControl.vi"/>
+			<Item Name="InitializeLED.vi" Type="VI" URL="../TestLights Folder/InitializeLED.vi"/>
+			<Item Name="PacDrive32.dll" Type="Document" URL="../TestLights Folder/PacDriveSDK/C#/bin/Debug/PacDrive32.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
