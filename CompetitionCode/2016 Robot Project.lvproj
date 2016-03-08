@@ -479,8 +479,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetSensorPosition.vi"/>
 				<Item Name="WPI_CompressorDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorDevRef.ctl"/>
 				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
+				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
 				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
+				<Item Name="WPI_CompressorStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStop.vi"/>
 				<Item Name="WPI_DefaultPWMConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_DefaultPWMConstants.vi"/>
 				<Item Name="WPI_DigitalInputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputDevRef.ctl"/>
 				<Item Name="WPI_DigitalInputGetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputGetValue.vi"/>
@@ -683,9 +685,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Area Scoring.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Area Scoring.vi"/>
-			<Item Name="Aspect Ratio Score 2016.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Aspect Ratio Score 2016.vi"/>
-			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Calculate Particle Scores.vi"/>
+			<Item Name="Area Scoring.vi" Type="VI" URL="../Vision support/Area Scoring.vi"/>
+			<Item Name="Aspect Ratio Score 2016.vi" Type="VI" URL="../Vision support/Aspect Ratio Score 2016.vi"/>
+			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../Vision support/Calculate Particle Scores.vi"/>
 			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision support/Camera Types.ctl"/>
 			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision support/Compute DistanceToTarget2.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
@@ -694,7 +696,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision support/Get camera FOVs.vi"/>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../Vision support/Label Targets2.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Moment Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Moment Score.vi"/>
+			<Item Name="Moment Score.vi" Type="VI" URL="../Vision support/Moment Score.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -708,8 +710,8 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../Vision support/Normalize Coordinates.vi"/>
-			<Item Name="Normalize Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalize Score.vi"/>
-			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalized Range Compare 2016.vi"/>
+			<Item Name="Normalize Score.vi" Type="VI" URL="../Vision support/Normalize Score.vi"/>
+			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../Vision support/Normalized Range Compare 2016.vi"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision support/Sorted Particle Report 2016.vi"/>
 			<Item Name="WPI_CameraBackground LoopCustom.vi" Type="VI" URL="../Vision support/WPI_CameraBackground LoopCustom.vi"/>
 		</Item>
